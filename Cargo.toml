@@ -1,0 +1,32 @@
+
+[workspace]
+members = [
+    "greeting",                   #新手示例
+    "spilder",                    #爬虫示例
+    "Rust0Mod",                   #模块
+    "Rust1Basicgrammar",          #基础语法
+    "Rust2DataType",              #数据类型
+    "Rust3Function",              #函数
+    "Rust4ConditionalStatement",  #条件语句
+    "Rust5Loop",                  #循环
+    "Rust6Iterator",              #迭代器
+    "Rust7Closure",               #闭包
+    "Rust8Ownership",             #所有权
+    "Rust9Slice",                 #切片
+    "Rust10Struct",               #结构体
+    "Rust11Enum",                 #枚举
+    "Rust12Org",                  #组织管理
+    "Rust13Error",                #错误处理
+    "Rust14GenericAndTrait",      #泛型和特性
+    "Rust15lifeCycle",            #生命周期
+    "Rust16FileAndIO",            #文件和IO
+    "Rust17CollectionAndString",  #集合和字符串
+    "Rust18OOP",                  #面向对象
+    "Rust19ConcurrentProgrammer", #并发编程
+    "Rust20Macros",               #宏
+    "Rust21SmartPointers",        #智能指针
+    "Rust22AsynProgrammer",       #异步编程
+    "Rust23Test",                 #测试
+]
+#如果你有 crate 使用 Rust 2018 版式，你可以为这些 crate 设置解析器 "1"，而为使用 Rust 2021 版式的 crate 设置解析器 "2"
+resolver = "2"
