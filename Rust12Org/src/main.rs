@@ -30,6 +30,7 @@ Rust 中有三个重要的组织概念：箱、包、模块。
 
 //这一篇主要是讲如何组织代码，模块、箱、包的 所以没用代码演示，在前面的模块中已经有了对于的模块 箱 包 的使用。
 // 参考文档： https://www.runoob.com/rust/rust-project-management.html
+
 fn main() {
     println!("Hello, world!");
 }
