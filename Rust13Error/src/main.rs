@@ -59,7 +59,7 @@ fn recoverable_kind() {
         },
     }
 }
-// 不可恢复错误传递
+// 可恢复错误传递
 fn recoverable_error_propagation() {
     fn f(i: i32) -> Result<i32, bool> {
         if i >= 0 {
